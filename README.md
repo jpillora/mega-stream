@@ -1,10 +1,18 @@
 
 :warning: In progress
 
+**Since this project will require the MediaSource API, it is on hold until has more support. Please leave a message in Issues if you'd like to give this a shot** 
+
+Current road blocks:
+
+* Lack of browser support.
+* The [existing mega library](https://github.com/tonistiigi/mega) used a forked, older version browserify, this is difficult to work with. The best thing would be to recreate a pure browser Mega library.
+
 ---
 
 Development References
 
+* http://www.jwplayer.com/html5/mediasource/
 * http://updates.html5rocks.com/2011/11/Stream-video-using-the-MediaSource-API
 * http://techslides.com/demos/video/dragdrop-video-screenshot.html
 
@@ -12,7 +20,7 @@ Development References
 
 # Mega Stream
 
-A front-end JavaScript library and accompanying web application for streaming audio, image and video content from Mega.
+A front-end JavaScript library and accompanying web application for streaming audio, image and video content from Mega. 
 
 ## Usage
 
