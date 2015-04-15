@@ -1,12 +1,12 @@
 
 :warning: In progress
 
-**Since this project will require the MediaSource API, it is on hold until has more support. Please leave a message in Issues if you'd like to give this a shot** 
+**This project is on hold until browsers acquire more MediaSource API support. Nevertheless, if you'd like to give this library a shot, fork it and I'll link to your working version.** 
 
 Current road blocks:
 
 * Lack of browser support.
-* The [existing mega library](https://github.com/tonistiigi/mega) used a forked, older version browserify, this is difficult to work with. The best thing would be to recreate a pure browser Mega library.
+* The [existing mega library](https://github.com/tonistiigi/mega) is built using an older forked version of browserify, this makes it difficult to work with. The best thing would be to recreate a pure browser Mega library using [existing mega library](https://github.com/tonistiigi/mega) source. Note, not all features would be required, we just need a **streaming** download command.
 
 ---
 
