@@ -22,34 +22,9 @@ Development References
 
 A front-end JavaScript library and accompanying web application for streaming audio, image and video content from Mega. 
 
-## Usage
+### How it would work
 
-You can stream your own content by visiting this webapp
-
-### https://jpillora.com/mega-stream
-
-
-Or you can build your own app webapps with the library
-
-**PROTOTYPE API**
-
-``` js
-MegaStream.init(user, accessKey, function(err, m) {
-	
-	m.list(function(err, files) {
-		//files in root
-	});
-
-	m.createStream("videos/party.mp4", function(err, stream) {
-		v = document.querySelector("#video");
-		v.src = stream;
-	});
-});
-```
-
-### How it works
-
-It uses [tonistiigi](https://github.com/tonistiigi/)'s [mega](https://github.com/tonistiigi/mega) to stream HTML5 blobs and the `mega-stream` library then converts these streams into HTML5 video compatible streams. The webapp is a example use-case of this library.
+It would use [tonistiigi](https://github.com/tonistiigi/)'s [mega](https://github.com/tonistiigi/mega) to stream HTML5 blobs and the `mega-stream` library then converts these streams into HTML5 video compatible streams. The webapp is a example use-case of this library.
 
 ### Contributing
 
