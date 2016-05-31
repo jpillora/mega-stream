@@ -1,5 +1,5 @@
 
-:warning: In progress
+:warning: This library is not functional yet!
 
 **This project is on hold until browsers acquire more MediaSource API support. Nevertheless, if you'd like to give this library a shot, fork it and I'll link to your working version.** 
 
